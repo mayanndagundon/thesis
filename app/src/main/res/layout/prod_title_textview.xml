@@ -6,6 +6,7 @@
         android:id="@+id/prod_title_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="OKAY"
         android:gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
 </RelativeLayout>

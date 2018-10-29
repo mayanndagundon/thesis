@@ -20,12 +20,12 @@ import java.util.List;
         private int itemLayoutResource;
         private ArrayList<products> products = new ArrayList<>();
 
-        public productAdapter(@NonNull Context context, int resource, @NonNull List<products> memes) {
-            super(context, resource, memes);
+        public productAdapter(@NonNull Context context, int resource, @NonNull List<products> product) {
+            super(context, resource, product);
 
             this.context = context;
             this.itemLayoutResource = resource;
-            this.products.addAll(memes);
+            this.products.addAll(product);
         }
 
         @Nullable
